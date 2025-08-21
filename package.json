@@ -1,0 +1,42 @@
+{
+ "name": "r4lrgx.dev",
+ "version": "1.0.0",
+ "description": "",
+ "homepage": "https://r4lrgx.dev",
+ "private": true,
+ "type": "module",
+ "scripts": {
+  "start": "tsx index",
+  "dev": "tsx watch index"
+ },
+ "license": "MIT",
+ "author": {
+  "name": "r4lrgx",
+  "email": "tsx@r4lrgx.dev"
+ },
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/r4lrgx/r4lrgx.dev.git"
+ },
+ "bugs": {
+  "url": "https://github.com/r4lrgx/r4lrgx.dev/issues"
+ },
+ "dependencies": {
+  "compression": "^1.8.1",
+  "express": "^5.1.0",
+  "express-rate-limit": "^8.0.1",
+  "helmet": "^8.1.0",
+  "morgan": "^1.10.1"
+ },
+ "devDependencies": {
+  "@types/express": "^5.0.3",
+  "@types/morgan": "^1.9.10",
+  "@types/node": "^24.3.0",
+  "tsx": "^4.20.4",
+  "typescript": "^5.9.2"
+ },
+ "engines": {
+  "node": ">=20.0.0"
+ },
+ "packageManager": "pnpm@10.15.0+sha512.486ebc259d3e999a4e8691ce03b5cac4a71cbeca39372a9b762cb500cfdf0873e2cb16abe3d951b1ee2cf012503f027b98b6584e4df22524e0c7450d9ec7aa7b"
+}
